@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    background-color: #fffefe;
+}
+
+nav i {
+    display: none;
+}
+
+nav img{
+    height: 65px;
+}
+@media (max-width: 768px){
+nav img {
+    height: 40px;
+}}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+@media (max-width: 768px){
+nav ul {
+    display: none;
+}
+}
+nav ul li{
+    font-size: 16px;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: all ease-in-out 0.3s;
+}
+nav .login{
+    height: 46px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 30px;
+    transition: all ease-in-out 0.3s;
+}
+nav .sign{
+    height: 43px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+    background-color:#5f50e4;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 10px;
+    transition: all ease-in-out 0.3s;
+}
+.login-btn{
+    display: none;
+}
+@media (max-width: 768px){
+.login-btn{
+    height: 25px;
+    width: 55px;
+    display: block;
+    margin: 0;
+}
+}
+/* heo-section */
+.hero-section{
+    display: flex;
+    padding: 20px 100px;
+    padding-bottom: 40px;
+    background-color:  #fffefe;
+}
+@media (max-width: 768px){
+.hero-section {
+    padding: 0 20px;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}}
+.hero-1{
+    width: 50%;
+
+}
+@media (max-width: 768px){
+.hero-1 {
+    width: 100%;
+    padding: 0;
+}}
+
+.hero-1 h1{
+    font-size: 50px;
+    margin-top: 40px;
+    line-height: 60px;
+}
+@media (max-width: 768px){
+.hero-1 h1 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+}
+.hero-1 p{
+font-size: 17px;
+margin-top: 25px;
+font-weight: 500;
+margin-bottom: 50px;
+line-height: 23px;
+color: rgb(72, 69, 69);
+}
+
+@media (max-width: 768px){
+.hero-1 .p-1 {
+    font-size: 9px;
+    line-height: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px){
+.btn {
+    align-items: center;
+}}
+.btn button{
+    height: 45px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    font-weight:500;
+    font-size: 14px;
+    background-color: #5f50e4;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+.btn div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(72, 69, 69);
+}
+@media (max-width: 768px){
+    .btn div {
+        font-size: 6px;
+        text-align: center;
+    }
+    }
+
+    .btn div span{
+        font-weight: 600;
+        font-size: 30px;
+        color: rgb(72, 69, 69);
+}
+@media (max-width: 768px){
+.btn div span {
+    font-size: 12px;
+}}
+
+
+    .members {
+      color: rgb(5, 4, 4);
+      font-size: 15px;
+    }
+    @media (max-width: 768px){
+    .members {
+        margin-top: 20px;
+    }
+    }
+    /* image-section */
+    .image-section{
+        display: flex;
+        justify-content: space-between;
+       height: 100px;
+       width: 350px;
+       padding: 30px 30px;
+       border-radius: 20px;
+       box-shadow: 0px 20px 40px 20px rgb(0 0 0 / 10%);
+       background-color: rgb(255, 255, 255);
+   
+    }
+
+    @media (max-width: 768px){
+.image-section {
+    margin-bottom: 30px;
+}}
+
+    .image-section span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-section span img {
+        height: 35px;
+        transition: all ease-in-out 0.3s;
+    }
+    .image-section span p {
+        font-size: 12px;
+        margin-top: 15px;
+        color: rgb(61, 59, 59);
+    }
+    /* last-section */
+    .last-section{
+        width: 50%;
+    }
+
+    @media (max-width: 768px){
+.last-section {
+    width: 100%;
+}
+    }
+    .last-section img{
+        height: 650px;
+        margin-left: 15px;
+    }
+    @media (max-width: 768px){
+    .last-section img {
+        height: 420px;
+    }
+}
+
+    @media (max-width: 768px){
+    nav {
+        padding: 20px;
+    }
+}
+@media (max-width: 768px){
+nav i {
+    display: block;
+    font-size: 19px;
+}
+}
